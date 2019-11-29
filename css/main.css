@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background-image: url("../img/portrait.jpg");
+      background-image: url("../img/KCamp_Edit1.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -167,6 +167,8 @@ main {
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
+    height: 300px;
+    width: 300px;
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
